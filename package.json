@@ -1,0 +1,9 @@
+{
+  "name": "ridge-line-supply-store",
+  "version": "1.0.0",
+  "description": "Ridge Line Supply Co. apparel store",
+  "dependencies": {
+    "stripe": "^23.0.0"
+  },
+  "private": true
+}

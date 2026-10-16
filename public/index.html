@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Ridge Line Supply Co. | Roofing apparel</title>
+<meta name="description" content="Tees, long sleeves, hoodies and hats for roofing crews from Ridge Line Supply Co.">
+<meta property="og:title" content="Ridge Line Supply Co.">
+<meta property="og:description" content="Tees, long sleeves, hoodies and hats for roofing crews.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#E7EAEC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14181B" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/barlow-condensed-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="rl-mark" viewBox="0 0 120 104">
+    <polygon class="cap" points="60,6 74.6,30 45.4,30"/>
+    <polygon class="body" points="42.96,34 64.5,34 64.5,56 29.6,56"/>
+    <polygon class="body" points="67.5,34 77.04,34 90.4,56 67.5,56"/>
+    <polygon class="body" points="27.13,60 46.5,60 46.5,80 14.96,80"/>
+    <polygon class="body" points="49.5,60 92.87,60 105.04,80 49.5,80"/>
+    <polygon class="body" points="12.52,84 68.5,84 68.5,98 4,98"/>
+    <polygon class="body" points="71.5,84 107.48,84 116,98 71.5,98"/>
+  </symbol>
+  <symbol id="rl-mark-cc" viewBox="0 0 120 104">
+    <polygon style="fill:var(--cap,#EE5A12)" points="60,6 74.6,30 45.4,30"/>
+    <polygon fill="currentColor" points="42.96,34 64.5,34 64.5,56 29.6,56"/>
+    <polygon fill="currentColor" points="67.5,34 77.04,34 90.4,56 67.5,56"/>
+    <polygon fill="currentColor" points="27.13,60 46.5,60 46.5,80 14.96,80"/>
+    <polygon fill="currentColor" points="49.5,60 92.87,60 105.04,80 49.5,80"/>
+    <polygon fill="currentColor" points="12.52,84 68.5,84 68.5,98 4,98"/>
+    <polygon fill="currentColor" points="71.5,84 107.48,84 116,98 71.5,98"/>
+  </symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hd">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Ridge Line Supply Co., home">
+      <svg viewBox="0 0 120 104" aria-hidden="true"><use href="#rl-mark"/></svg>
+      <span class="wm"><b>Ridge Line</b><span>Supply Co.</span></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a class="l" href="#shop">Shop</a>
+      <a class="l" href="#gear">Made for the roof</a>
+      <a class="l" href="#crew">Crew orders</a>
+      <button class="btn sm ghost" id="bagBtn" type="button" aria-haspopup="dialog">Bag <span class="count" id="bagCount">0</span></button>
+    </nav>
+  </div>
+</header>
+<div class="banner" id="banner" role="status" hidden><div class="wrap"><span id="bannerText"></span><button type="button" class="lnk" id="bannerClose">Dismiss</button></div></div>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Apparel for roofing crews</p>
+        <h1>Gear for the ridge line.</h1>
+        <p class="lead">Tees, long sleeves, hoodies and hats from Ridge Line Supply Co. Made for the people on the roof and the people who hire them.</p>
+        <div class="cta">
+          <a class="btn" href="#shop">Shop the gear</a>
+          <a class="btn ghost" href="#crew">Outfit your crew</a>
+        </div>
+      </div>
+      <div class="hero-art" id="heroArt"></div>
+    </div>
+    <div class="wrap">
+      <svg class="strip" aria-hidden="true" focusable="false">
+        <defs>
+          <pattern id="shingles" width="96" height="44" patternUnits="userSpaceOnUse">
+            <rect x="2" y="2" width="92" height="18" rx="1" style="fill:var(--tile)"/>
+            <rect x="-46" y="24" width="92" height="18" rx="1" style="fill:var(--tile)"/>
+            <rect x="50" y="24" width="92" height="18" rx="1" style="fill:var(--tile)"/>
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#shingles)"/>
+      </svg>
+    </div>
+  </section>
+
+  <section class="sec" id="shop" aria-labelledby="h-shop">
+    <div class="wrap">
+      <p class="eyebrow">The shop</p>
+      <h2 id="h-shop">Shop the gear</h2>
+      <p class="note" id="sampleNote">Sample products and prices. Replace them with your own catalog before the store opens.</p>
+      <div class="chips" role="group" aria-label="Filter by type" id="chips"></div>
+      <div class="grid" id="grid"></div>
+      <noscript><p class="note">The shop needs JavaScript. Turn it on, or call us to order.</p></noscript>
+    </div>
+  </section>
+
+  <section class="sec band" id="gear" aria-labelledby="h-gear">
+    <div class="wrap">
+      <p class="eyebrow">Made for the roof</p>
+      <h2 id="h-gear">Built for a hot roof</h2>
+      <div class="facts3">
+        <div><h3>Tight weave</h3><p>Dense, smooth fabric keeps itchy fibers from working through to your skin.</p></div>
+        <div><h3>Loose fit</h3><p>Room to move on the pitch, and air to move around you when it is hot.</p></div>
+        <div><h3>Long sleeves</h3><p>Cover your arms from sun, shingle grit and insulation without adding bulk.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="crew" aria-labelledby="h-crew">
+    <div class="wrap contact">
+      <div class="info">
+        <p class="eyebrow">Crew orders</p>
+        <h2 id="h-crew">Outfit the whole crew</h2>
+        <p>Ordering for a crew or a company? Tell us what you need and how many, and we will get back to you with sizes, colors and pricing.</p>
+        <dl class="dl">
+          <div><dt>Phone</dt><dd><span class="ph" data-site="phone">[Your phone]</span></dd></div>
+          <div><dt>Email</dt><dd><span class="ph" data-site="email">[Your email]</span></dd></div>
+        </dl>
+      </div>
+      <div class="formcard">
+        <form id="crewForm" name="crew-order" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="crew-order">
+          <p class="vh" aria-hidden="true"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <div class="f"><label for="cName">Name</label><input id="cName" name="name" type="text" autocomplete="name" required></div>
+          <div class="f"><label for="cOrg">Company or crew</label><input id="cOrg" name="company" type="text" autocomplete="organization"></div>
+          <div class="f"><label for="cPhone">Phone</label><input id="cPhone" name="phone" type="tel" autocomplete="tel"></div>
+          <div class="f"><label for="cEmail">Email</label><input id="cEmail" name="email" type="email" autocomplete="email"></div>
+          <div class="f"><label for="cQty">How many people?</label><input id="cQty" name="people" type="number" min="1" inputmode="numeric"></div>
+          <div class="f"><label for="cItems">What do you want?</label>
+            <select id="cItems" name="wants"><option>A mix of items</option><option>Tees</option><option>Long sleeves</option><option>Hoodies</option><option>Hats</option></select>
+          </div>
+          <div class="f full"><label for="cMsg">Anything else</label><textarea id="cMsg" name="message" placeholder="Colors, your own logo on the gear, when you need it."></textarea></div>
+          <p class="err f full" id="cErr" role="alert" hidden></p>
+          <div class="form-foot f full">
+            <button class="btn" type="submit">Prepare my request</button>
+            <p class="fine">Name, plus a phone or email.</p>
+          </div>
+        </form>
+        <div class="done" id="cDone" hidden>
+          <h3 id="cDoneTitle" tabindex="-1">Request ready</h3>
+          <p class="fine" id="cSent" style="font-size:1rem" hidden>Thanks. We got your request and will get back to you soon.</p>
+          <div id="cFallback" style="display:flex;flex-direction:column;gap:12px">
+            <p class="fine" style="font-size:1rem">Copy this and send it to <span class="ph" data-site="email">[Your email]</span>, or call <span class="ph" data-site="phone">[Your phone]</span>.</p>
+            <pre id="cText"></pre>
+            <div class="row"><button class="btn ghost sm" type="button" id="cCopy">Copy request</button><span class="fine" id="cCopyMsg" role="status"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="Ridge Line Supply Co., back to top">
+      <svg viewBox="0 0 120 104" aria-hidden="true"><use href="#rl-mark"/></svg>
+      <span class="wm"><b>Ridge Line</b><span>Supply Co.</span></span>
+    </a>
+    <div class="legal">
+      <span><span class="ph" data-site="policy">[Shipping and returns policy]</span></span>
+      <span>&copy; 2026 Ridge Line Supply Co.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="bag" role="dialog" aria-modal="true" aria-labelledby="bagTitle" hidden>
+  <div class="dh">
+    <h2 id="bagTitle">Your bag</h2>
+    <button class="btn ghost sm" type="button" id="bagClose">Close</button>
+  </div>
+  <div class="dbody">
+    <p class="empty" id="bagEmpty">Your bag is empty. Pick a color and size, then add something.</p>
+    <ul class="bag-list" id="bagList"></ul>
+    <div id="bagFoot" hidden style="display:flex;flex-direction:column;gap:16px">
+      <div class="sub"><span>Subtotal</span><span id="bagSub">$0.00</span></div>
+      <button class="btn" type="button" id="checkoutBtn">Checkout</button>
+      <p class="err" id="coErr" role="alert" hidden></p>
+      <details class="alt" id="altOrder">
+        <summary id="altSummary">Send as an order request instead</summary>
+        <form class="dform" id="orderForm" novalidate>
+          <div class="f"><label for="oName">Name</label><input id="oName" type="text" autocomplete="name"></div>
+          <div class="f"><label for="oContact">Phone or email</label><input id="oContact" type="text" autocomplete="email"></div>
+          <p class="err" id="oErr" role="alert" hidden></p>
+          <button class="btn ghost" type="submit">Prepare my order</button>
+          <p class="fine">We will contact you to arrange payment and pickup or shipping.</p>
+        </form>
+        <div class="done" id="oDone" hidden style="margin-top:16px">
+          <h3 id="oDoneTitle" tabindex="-1">Order ready</h3>
+          <p class="fine" style="font-size:1rem">Copy this and send it to <span class="ph" data-site="email">[Your email]</span>, or call <span class="ph" data-site="phone">[Your phone]</span>.</p>
+          <pre id="oText"></pre>
+          <div class="row"><button class="btn ghost sm" type="button" id="oCopy">Copy order</button><span class="fine" id="oCopyMsg" role="status"></span></div>
+        </div>
+      </details>
+    </div>
+  </div>
+</aside>
+<div class="vh" id="live" role="status" aria-live="polite"></div>
+
+<script src="site-config.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

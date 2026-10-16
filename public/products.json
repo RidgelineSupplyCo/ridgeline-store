@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ridge-tee",
+    "name": "Ridge Tee",
+    "cat": "Tees",
+    "kind": "tee",
+    "print": "mark",
+    "price": 2800,
+    "desc": "A soft cotton tee with the roof mark on the chest.",
+    "sizes": ["S", "M", "L", "XL", "2XL"],
+    "colors": [["Charcoal", "#3A3F44"], ["Sand", "#D7C7A5"], ["White", "#F1F1EE"]]
+  },
+  {
+    "id": "weather-tee",
+    "name": "Weather Tests Every Roof Tee",
+    "cat": "Tees",
+    "kind": "tee",
+    "print": "quote",
+    "price": 3000,
+    "desc": "The shop motto, printed big across the chest.",
+    "sizes": ["S", "M", "L", "XL", "2XL"],
+    "colors": [["Black", "#16181B"], ["Heather grey", "#B9BDC1"], ["Safety orange", "#F26B1D"]]
+  },
+  {
+    "id": "climb-tee",
+    "name": "Climb High Tee",
+    "cat": "Tees",
+    "kind": "tee",
+    "print": "climb",
+    "price": 2800,
+    "desc": "Two words for anyone who starts the day on a ladder.",
+    "sizes": ["S", "M", "L", "XL", "2XL"],
+    "colors": [["Navy", "#1B2A44"], ["Forest", "#1F4A33"], ["Sand", "#D7C7A5"]]
+  },
+  {
+    "id": "crew-ls",
+    "name": "Crew Long Sleeve",
+    "cat": "Long sleeves",
+    "kind": "long",
+    "print": "mark",
+    "price": 3800,
+    "desc": "Tightly woven poly-cotton in a loose fit. Smooth, light and covered for hot days on the roof.",
+    "sizes": ["S", "M", "L", "XL", "2XL"],
+    "colors": [["Sand", "#D7C7A5"], ["Light grey", "#C9CDD0"], ["Charcoal", "#3A3F44"]]
+  },
+  {
+    "id": "peak-hoodie",
+    "name": "Peak Hoodie",
+    "cat": "Hoodies",
+    "kind": "hoodie",
+    "print": "mark",
+    "price": 6200,
+    "desc": "A heavy hoodie for cold starts, with a front pocket and the roof mark.",
+    "sizes": ["S", "M", "L", "XL", "2XL"],
+    "colors": [["Charcoal", "#3A3F44"], ["Black", "#16181B"], ["Forest", "#1F4A33"]]
+  },
+  {
+    "id": "ridge-cap",
+    "name": "Ridge Cap",
+    "cat": "Hats",
+    "kind": "cap",
+    "print": "mark",
+    "price": 2600,
+    "desc": "A structured trucker cap with the roof mark on the front.",
+    "sizes": ["One size"],
+    "colors": [["Charcoal", "#3A3F44"], ["Sand", "#D7C7A5"], ["Safety orange", "#F26B1D"]]
+  }
+]
